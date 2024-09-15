@@ -8,33 +8,124 @@
   </head>
 
   <body>
-    <div class="hero">
-      <div class="container hero_container">
-        <div class="hero_info">
-          <h1 class="hero_title">Поставщик Дальнего Востока</h1>
-          <p class="hero_desc">
-            Наши клиенты получают полный спектр услуг по работе с Китаем.
-            Начиная с подбора производителя заканчивая доставкой товара до
-            двери. Настолько прозрачных сделок с Китаем вы еще не осуществляли.
-          </p>
-          <a href="#">Узнать больше</a>
-        </div>
-        <div class="hero_image">
-          <img
-            src="./img/hero_img.png"
-            srcset="./img/hero_img.png 1x, ./img/hero_img@2x.png 2x"
-            alt="Truck_image"
-          />
+    <header>
+      <!--Hero-->
+      <div class="navigatia">
+        <div class="navigatia__container container">
+          <div class="navigatia-text">
+            <h1>Поставщик Дальнего Востока</h1>
+            <p>
+              Наши клиенты получают полный спектр услуг по работе с Китаем.
+              Начиная с подбора производителя заканчивая доставкой товара до
+              двери. Настолько прозрачных сделок с Китаем вы еще не
+              осуществляли.
+            </p>
+            <button>Узнать больше</button>
+          </div>
+          <div class="nav-image">
+            <picture>
+              <source
+                style="max-width: 100%"
+                srcset="images/hero-track-mobile.png"
+                media="(max-width:540px)"
+              />
+              <source
+                srcset="images/hero-track-tablet.png"
+                media="(max-width:849px)"
+              />
+              <img src="images/hero-track.png" alt="Flowers" />
+            </picture>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="category">
-      <div class="container category_container">
-        <div class="category_block">
-          <div class="category_icon"></div>
-          <div class="category_info"></div>
+    </header>
+
+    <section class="category">
+      <!-- Bo'lim 1 -->
+      <div class="category__container container">
+        <div class="category-box">
+          <img src="images/icons/category-icon1.svg" alt="icon" />
+          <div class="category-box-text">
+            <h3>Поиск производителей по товару</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod incididunt ut.
+            </p>
+          </div>
+        </div>
+        <div class="category-box">
+          <img src="images/icons/category-icon2.svg" alt="icon" />
+          <div class="category-box-text">
+            <h3>Поиск конкретного производителя</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod incididunt ut.
+            </p>
+          </div>
+        </div>
+        <div class="category-box">
+          <img src="images/icons/category-icon3.svg" alt="icon" />
+          <div class="category-box-text">
+            <h3>Доставка образцов товаров</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod incididunt ut.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+    <section class="profitable">
+      <!-- Bo'lim 2 -->
+      <div class="profitable-container container">
+        <div class="profitable-top">
+          <div class="profitable-top-title">
+            <h2>Почему с нами выгоднее?</h2>
+          </div>
+        </div>
+        <div class="profitable-bottom">
+          <div class="profitable-bottom-card">
+            <img src="images/icons/icon-1.svg" alt="img" />
+            <div class="profitable-bottom-title">
+              <h3>Lorem ipsum dolor sit amet</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod ut.
+              </p>
+            </div>
+          </div>
+          <div class="profitable-bottom-card">
+            <img src="images/icons/icon-2.svg" alt="img" />
+            <div class="profitable-bottom-title">
+              <h3>Lorem ipsum dolor sit amet</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod ut.
+              </p>
+            </div>
+          </div>
+          <div class="profitable-bottom-card">
+            <img src="images/icons/icon-3.svg" alt="img" />
+            <div class="profitable-bottom-title">
+              <h3>Lorem ipsum dolor sit amet</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod ut.
+              </p>
+            </div>
+          </div>
+          <div class="profitable-bottom-card">
+            <img src="images/icons/icon-4.svg" alt="img" />
+            <div class="profitable-bottom-title">
+              <h3>Lorem ipsum dolor sit amet</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod ut.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
